@@ -23,3 +23,19 @@ def vectorization_faster_example_1():
 
 
 # vectorization_faster_example_1()
+
+def numpy_method_examples():
+    a = np.random.rand(1000000)
+    print(a.shape)
+    exp = np.exp(a)
+    print(exp.shape)
+    log = np.log(a)
+    max = np.max(a, 0)
+    print(a)
+    # element wise square
+    print(a ** 2)
+    # element wise inverse
+    print(1 / a)
+
+
+numpy_method_examples()
